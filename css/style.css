@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pangolin&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Roboto Flex";
+  font-size: 16px;
+  color: #191919;
+}
+
+.fa-solid.fa-location-dot {
+  color: #f2f2f2; 
+  padding-left: 10px;
+}
+
+span{
+  margin-left: 10px;
+  margin-left: 10px;
+  color: #f2f2f2;
+  font-family: "Roboto Flex";
+
+}
+
+
+.text1 {
+  float: left;
+  margin-bottom: 0px;
+  margin-left: 60px;
+  margin-top: 180px;
+  color: #8f0c01;
+  font-family: "Fira Sans Extra Condensed";
+}
+
+.card-group {
+  float: right;
+  max-width: 1050px; /* Максимальна ширина контейнера .card-group */
+  margin-top: 35px;
+  margin-bottom: 20px; /* відступ між карточками */
+}
+
+.text1 h6 {
+  font-size: 120px;
+}
+
+.custom-btn {
+  background-color: #8f0c01; 
+  color: #f2f2f2;
+  font-size: 18px; 
+  width: 180px;
+  padding: 5px 10px; /* внутрішні відступи кнопки */
+  margin: 0 auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative; 
+  z-index: 1;
+}
+
+
+.card {
+  margin-right: 20px;
+  background-color: rgba(255, 255, 255, 0.658); 
+  border: 1px solid rgba(128, 128, 128, 0.5); 
+}
+
+.card-body {
+  padding: 0; 
+}
+
+.square-top,
+.square-bottom {
+  position: absolute;
+  width: 40px; 
+  height: 40px; 
+  background-color: rgba(97, 97, 97, 0.926);
+  border-radius: 10px; 
+  margin-top: 5px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  color: #eceeef;
+}
+
+.square-top {
+  top: 0; 
+}
+
+.square-bottom {
+  top: 45px; 
+}
+
+.card-body h5 {
+  font-family: "Roboto Flex";
+  margin-top: 10px;
+  margin-left: 10px; 
+}
+
+.card-body p {
+  margin: 0; 
+  margin-right: 15px;
+  margin-left: 10px; 
+}
+
+
+ .site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:white;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#8F0C01
+}
+.social-icons a.twitter:hover
+{
+  background-color:#8F0C01
+}
+.social-icons a.instagram:hover
+{
+  background-color:#8F0C01
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#8F0C01
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
